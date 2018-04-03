@@ -1,0 +1,21 @@
+
+/*
+fixes navbar blocking contents of top page
+*/
+
+body{
+    padding-top: 65px;
+}
+
+
+
+
+
+/*
+static footer for logos
+*/
+#logos{
+    position:fixed;
+    bottom: 0;
+    width:100%;
+}
