@@ -12,6 +12,7 @@
 
     <!-- scripts -->
     <script type="text/javscript" src = "scripts/bootstrap.min.js"> </script>
+    <script type="text/javscript" src = "scripts/jquery-3.2.1.min.js"> </script>
 
 
     
@@ -68,52 +69,67 @@
 
 
        <!-- intro of page --> 
-        <div class = "page_part" id = "intro">
-            <h1 class = "text-center"> San Francisco Bay Area Chapter </h1>
-            <h1 class = "text-center"> American Payroll Association </h1>
-
-        </div>
-
-
         <!-- home page -->
         <div class = "page_part" id = "Home">
+            <h1 class = "text-center"> San Francisco Bay Area Chapter </h1>
+             <h1 class = "text-center"> American Payroll Association </h1>
+             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval = "2500">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class= "slide_image" class = "img-responsive" src="https://wwwassets.rand.org/content/rand/about/locations/san-francisco/office/_jcr_content/par/herotitle.aspectfit.0x0.jpg/x1495302287458.jpg.pagespeed.ic.-3A48iDzR2.jpg" alt="first image">
+						</div>
+					</div>
+                </div> <!-- end of carousel -->
+                
+            <h2 class = "text-center"> Click to Join!</h1>
+            <button type="button" class="btn btn-primary text-center" id = "join_button"> <a id="join_link" href = "https://www.cvent.com/events/ContactPortal/Login.aspx?cwstub=e9b2ed48-33d2-4d6c-bd0e-f6459cd30d89"> Join </a> </button>    
             <h1 class = "text-center"> (Home) </h1>
-        </div>
+           
+        </div> <!-- end of home div -->
 
         <!-- About us -->
         <div class = "page_part" id = "About Us">
-            <h1 class = "text-center"> (About Us) </h1>
+          
         </div>
 
         <!-- Members -->
         <div class = "page_part" id = "Members">
-            <h1 class = "text-center"> (Members) </h1>    
+             
         </div>
 
         <!-- Events -->
         <div class = "page_part" id = "Events">
-             <h1 class = "text-center"> (Events) </h1>
+          
         </div>
 
         <!-- Resources -->
         <div class = "page_part" id = "Resources">
-            <h1 class = "text-center"> (Resources) </h1>
+            
         </div>
 
         <!-- Careers -->
         <div class = "page_part" id = "Careers">
-            <h1 class = "text-center"> (Careers) </h1>
+         
         </div>
 
         <!-- Contact Us -->
         <div class = "page_part" id = "Contact Us">
-            <h1 class = "text-center"> (Contact Us) </h1>
+           
         </div>
 
 
         <!-- Sponsor Logos -->
         <div id = "logos">
-            <h1 class = "text-center"> (Sponsor Logos) </h1>
+       
         </div>
 
 
